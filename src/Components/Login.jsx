@@ -20,6 +20,7 @@ const Login = () => {
         <AuthForm
           title="Sign In"
           buttonText="Sign In"
+          isSignInForm={true}
           footer={
             <p className="text-gray-400 text-sm">
               New to Netflix?{" "}
